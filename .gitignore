@@ -22,6 +22,7 @@
 *.x86_64
 *.hex
 
-#Eclipse Project files
+#Eclipse Project files and directories
 .project
 .cproject
+.settings
