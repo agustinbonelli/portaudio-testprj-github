@@ -4,6 +4,7 @@
 #     Author: bone
 #
 
+BUILD_DIR = build
 
 OUTPUT = portaudio-product.out
 
@@ -15,4 +16,5 @@ FLAGS = -Wall -pedantic
 
 all:
 	gcc -o ${OUTPUT} ${SOURCES} ${LIBRARIES}
+	mv ${OUTPUT} ${BUILD_DIR}
 	
